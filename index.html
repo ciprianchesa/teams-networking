@@ -3,30 +3,33 @@
     <head>
         <title>Teams Networking</title>
     </head>
-    <body>
-        <table border="1">
-            <thead>
-                <tr>
-                    <th>Members</th>
-                    <th>Project Name</th>
-                    <td>Project URL</td>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Members</th>
+                <th>Project Name</th>
+                <th>Project URL</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ciprian Chesa</td>
+                <td>CV</td>
+                <td>https://github.com/ciprianchesa/ciprianchesa.github.io</td>
                 </tr>
-            </thead>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td><input type="text" name="members" placeholder="enter Members"></td>
+                <td><input type="text" name="name" placeholder="enter Project Name"></td>
+                <td><input type="text" name="url" placeholder="enter Project URL"></td>
+                <td><button onclick="saveTeam()">Save</button></td>
+            </tr>
+        </tfoot>
+    </table>
 
-            <tbody>
-                <tr>
-                    <td>Ciprian Chesa</td>
-                    <td>CV</td>
-                    <td>https://github.com/ciprianchesa/ciprianchesa.github.io</td>
-                </tr>
-            </tbody>
-
-            <tfoot>
-
-            </tfoot>
-
-            
-            
-        </table>
-    </body>
+    <script src="functions.js"></script>
+</body>
 </html>
