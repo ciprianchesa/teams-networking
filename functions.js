@@ -35,9 +35,9 @@ function addTeam(team) {
 }
 
 function saveTeam() {
-    const members =  document.querySelector("input[name=members]").value;
-    const name =  document.querySelector("input[name=name]").value;
-    const url =  document.querySelector("input[name=url]").value;
+    const members = document.querySelector("input[name=members]").value;
+    const name = document.querySelector("input[name=name]").value;
+    const url = document.querySelector("input[name=url]").value;
 
     const team = {
         name: name,
