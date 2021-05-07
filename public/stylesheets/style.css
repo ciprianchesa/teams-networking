@@ -1,0 +1,22 @@
+#list {
+  border-style: initial;
+  width: 100%;
+}
+
+#list th {
+  background-color: #2f9a74;
+  color: white;
+}
+
+#list th, #list td {
+  border: 1px solid hsl(178, 53%, 9%);
+  padding: 5px;
+}
+
+#list tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#list tfoot input[type="text"] {
+  width: 100%;
+}

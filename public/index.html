@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Teams Networking</title>
+        <link rel="stylesheet" href="stylesheets/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+<body>
+    <h1>Teams Networking</h1>
+    <div style="margin-bottom: 2px">
+        <input type="text" id="search" placeholder="Search">
+        <label for="search">&#128270</label>
+    </div>
+    <table id="list" class="table">
+        <thead>
+            <tr>
+                <th>Members</th>
+                <th>Project Name</th>
+                <th>Project URL</th>
+                <th> </th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+        <tfoot>
+            <tr>
+                <td><input type="text" name="members" placeholder="enter Members"></td>
+                <td><input type="text" name="name" placeholder="enter Project Name"></td>
+                <td><input type="text" name="url" placeholder="enter Project URL"></td>
+                <td><button id="saveBtn" onclick="saveTeam()">Save</button></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <script src="functions.js"></script>
+
+</body>
+</html>
